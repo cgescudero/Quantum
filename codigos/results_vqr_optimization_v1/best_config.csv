@@ -1,0 +1,2 @@
+n_qubits,n_layers,learning_rate,rotation,init_seed,model,r2_mean,r2_std,mae_mean,mae_std,rmse_mean,rmse_std,time_mean_sec,time_std_sec,stop_epoch_mean
+6,6,0.03,Y,202,vqr_q6_l6_lr0.03_rotY_seed202,0.9187487714709176,0.023276935802656322,0.04057740364846162,0.004931574154053017,0.06024505566202701,0.007655213234499463,501.6634400879969,13.62608676552492,200.0

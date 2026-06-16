@@ -1,0 +1,49 @@
+{
+  "created_utc": "2026-06-16T02:10:10.472712+00:00",
+  "script": "/home/cgescude/Obsidian/Cerebro/01_Proyectos_Personales/02_Quantum/023_trabajo/optimize_vqr_metallicity_v1.py",
+  "input_csv": "/home/cgescude/Obsidian/Cerebro/01_Proyectos_Personales/02_Quantum/023_trabajo/sdss_galaxies_features_physical.csv",
+  "output_dir": "/home/cgescude/Obsidian/Cerebro/01_Proyectos_Personales/02_Quantum/023_trabajo/results_vqr_optimization_v1",
+  "n_galaxies": 500,
+  "n_folds": 3,
+  "split_seed": 42,
+  "feature_columns": [
+    "log_nii_ha",
+    "log_oiii_hb",
+    "log_oii_hb",
+    "log_sii_ha",
+    "log_r23",
+    "log_o32",
+    "log_stellar_mass",
+    "z"
+  ],
+  "target_column": "metallicity",
+  "n_qubits": [
+    6
+  ],
+  "n_layers": [
+    4,
+    6
+  ],
+  "learning_rates": [
+    0.01,
+    0.03
+  ],
+  "rotations": [
+    "Y"
+  ],
+  "init_seeds": [
+    101,
+    202,
+    303
+  ],
+  "epochs": 200,
+  "batch_size": 16,
+  "log_interval": 20,
+  "full_loss_interval": 20,
+  "patience": 0,
+  "min_delta": 0.0001,
+  "qml_embedding": "AngleEmbedding(rotation configurable)",
+  "qml_ansatz": "StronglyEntanglingLayers",
+  "qml_observable": "PauliZ(0)",
+  "notes": "VQR hyperparameter grid with fold-local preprocessing and target scaling."
+}
