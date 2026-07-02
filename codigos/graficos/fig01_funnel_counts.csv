@@ -1,0 +1,8 @@
+stage,count,source
+Externos normalizados,1292,csv_rows
+Externos usados para SDSS,1214,json_or_fallback
+Matches SDSS por región,960,json_or_fallback
+SpecObjID únicos,501,json_or_fallback
+Filas con espectros/líneas,386,json_or_fallback
+Features físicas válidas,274,json_or_fallback
+Positivos externos únicos finales,124,json_or_fallback

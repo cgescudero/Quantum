@@ -1,0 +1,7 @@
+feature_subset,metric,delta
+core_4,delta precision@20,0.027
+core_4,delta precision@50,0.0007999999999999
+core_4,delta recall@top5%,0.0057333333333333
+metallicity_5,delta precision@20,0.0329999999999999
+metallicity_5,delta precision@50,0.0016
+metallicity_5,delta recall@top5%,-0.0008333333333333

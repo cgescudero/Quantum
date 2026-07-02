@@ -1,0 +1,4 @@
+sample,n,median_z,median_log_stellar_mass
+controles aleatorios,620,0.06592948500000001,9.9391915
+controles pareados,620,0.045533375,8.894814499999999
+positivos externos,124,0.042775705,8.8855

@@ -1,0 +1,13 @@
+dataset,model_base,aggregation,pr_auc,n_models,display_model
+matched,qksvc_reuploading,mean_by_model_base,0.4793019407879082,3,QK-SVC reuploading
+random,qksvc_reuploading,mean_by_model_base,0.8410057730206822,3,QK-SVC reuploading
+matched,svc_rbf,mean_by_model_base,0.4830515314740628,1,SVC RBF
+random,svc_rbf,mean_by_model_base,0.8200639449160381,1,SVC RBF
+matched,svc_poly,mean_by_model_base,0.5160182268243891,1,SVC poly
+random,svc_poly,mean_by_model_base,0.8157388757032111,1,SVC poly
+matched,logistic_regression,mean_by_model_base,0.4338125425457833,1,Logistic regression
+random,logistic_regression,mean_by_model_base,0.8109909661502994,1,Logistic regression
+matched,random_forest,mean_by_model_base,0.5441368877088688,1,Random forest
+random,random_forest,mean_by_model_base,0.7759432962686857,1,Random forest
+matched,hist_gradient_boosting,mean_by_model_base,0.5247899470663375,1,HistGradientBoosting
+random,hist_gradient_boosting,mean_by_model_base,0.78003757438537,1,HistGradientBoosting

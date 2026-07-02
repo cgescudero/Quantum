@@ -1,0 +1,8 @@
+model,pr_auc,roc_auc,model_family,model_base,aggregation,n_models_collapsed,display_model
+random_forest,0.5441368877088688,0.8311666666666667,classical,random_forest,single_model,1,Random forest
+hist_gradient_boosting,0.5247899470663375,0.8282392473118281,classical,hist_gradient_boosting,single_model,1,HistGradientBoosting
+svc_poly,0.5160182268243891,0.8198279569892473,classical,svc_poly,single_model,1,SVC poly
+svc_rbf,0.4830515314740628,0.824510752688172,classical,svc_rbf,single_model,1,SVC RBF
+qksvc_reuploading_layers2_seed101,0.4818554952339267,0.8227741935483872,quantum_kernel,qksvc_reuploading,max_pr_auc_within_qml_family,3,QK-SVC reuploading
+logistic_regression,0.4338125425457833,0.7997849462365592,classical,logistic_regression,single_model,1,Logistic regression
+qksvc_zz_layers2_deterministic,0.2943019400620315,0.6874892473118279,quantum_kernel,qksvc_zz,max_pr_auc_within_qml_family,1,QK-SVC ZZ
